@@ -9,7 +9,16 @@
 });*/
 
 $( ".instron-link" ).click(function() {
-  location.href="instron.html"
+    //location.href="instron.html"
+
+    var win = window.open('instron.html', '_blank');
+    if (win) {
+        //Browser has allowed it to be opened
+        win.focus();
+    } else {
+        //Browser has blocked it
+        alert('Please allow popups for this website');
+    }
 });
 
 
@@ -19,7 +28,43 @@ $( ".GE-link" ).click(function() {
 });
 
 $( ".REU-link" ).click(function() {
-  location.href="experience.html#go-to-reu"
+    //location.href="experience.html#go-to-reu";
+
+    var win = window.open('https://www.ncbi.nlm.nih.gov/pubmed/25822873', '_blank');
+    if (win) {
+        //Browser has allowed it to be opened
+        win.focus();
+    } else {
+        //Browser has blocked it
+        alert('Please allow popups for this website');
+    }
+
+});
+
+$( ".slay-link" ).click(function() {
+    //location.href="https://github.com/XIIFulminata/AFK-Slayer"
+
+    var win = window.open('https://github.com/XIIFulminata/AFK-Slayer', '_blank');
+    if (win) {
+        //Browser has allowed it to be opened
+        win.focus();
+    } else {
+        //Browser has blocked it
+        alert('Please allow popups for this website');
+    }
+});
+
+$( ".daily-link" ).click(function() {
+    //location.href="https://github.com/XIIFulminata/Daily-Scape"
+
+    var win = window.open('https://github.com/XIIFulminata/Daily-Scape', '_blank');
+    if (win) {
+        //Browser has allowed it to be opened
+        win.focus();
+    } else {
+        //Browser has blocked it
+        alert('Please allow popups for this website');
+    }
 });
 
 /*$( ".REU-link" ).click(function() {
@@ -37,15 +82,42 @@ $( ".bess-link" ).click(function() {
 */
 
 $( ".mlh-link" ).click(function() {
-  location.href="mlh.html"
+    //location.href="mlh.html"
+
+    var win = window.open('mlh.html', '_blank');
+    if (win) {
+        //Browser has allowed it to be opened
+        win.focus();
+    } else {
+        //Browser has blocked it
+        alert('Please allow popups for this website');
+    }
 });
 
 $( ".3dp-link" ).click(function() {
-  location.href="3dp.html"
+    //location.href="3dp.html"
+
+    var win = window.open('3dp.html', '_blank');
+    if (win) {
+        //Browser has allowed it to be opened
+        win.focus();
+    } else {
+        //Browser has blocked it
+        alert('Please allow popups for this website');
+    }
 });
 
 $( ".wiz-link" ).click(function() {
-  location.href="wiz.html"
+    //location.href="wiz.html"
+
+    var win = window.open('wiz.html', '_blank');
+    if (win) {
+        //Browser has allowed it to be opened
+        win.focus();
+    } else {
+        //Browser has blocked it
+        alert('Please allow popups for this website');
+    }
 });
 
 $( ".unprod-link" ).click(function() {
