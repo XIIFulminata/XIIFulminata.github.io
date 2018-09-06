@@ -21,7 +21,18 @@ $( ".instron-link" ).click(function() {
     }
 });
 
+$( ".cake-link" ).click(function() {
+    //location.href="cake.html"
 
+    var win = window.open('cake.html', '_blank');
+    if (win) {
+        //Browser has allowed it to be opened
+        win.focus();
+    } else {
+        //Browser has blocked it
+        alert('Please allow popups for this website');
+    }
+});
 
 $( ".GE-link" ).click(function() {
   location.href="experience.html#go-to-ge"
